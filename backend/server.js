@@ -12,14 +12,14 @@ const port =5000;
 app.use(cors());
 app.use(express.json());
 
-// const uri = 'mongodb+srv://admin:Naruto123@cluster0.666jb.mongodb.net/vyaapaar?retryWrites=true&w=majority'
+// const uri = 'mongodb+srv://admin:admin@cluster0.666jb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 // mongoose.connect(uri,{useNewUrlParser:true});
 // const connection = mongoose.connection;
 // connection.once('open' , ()=>{
 //     console.log('Mongo connected');
 // })
 
-const connectionUrl='mongodb+srv://admin:Naruto123@cluster0.666jb.mongodb.net/vyaapaar?retryWrites=true&w=majority'
+const connectionUrl='mongodb+srv://admin:admin@cluster0.666jb.mongodb.net/vyaapaar?retryWrites=true&w=majority'
 mongoose.connect(connectionUrl,{
  
     useNewUrlParser:true,
